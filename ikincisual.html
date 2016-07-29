@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ikincisualleyla</title>
+</head>
+<body>
+<script type="text/javascript">
+//a=54
+//b=36
+	function ebob(a,b){
+		if (a%b != 0){
+			c = a % b ;
+			a=b;
+			b=c;
+			ebob(a,b);
+		}else{
+			document.write(b);
+		}
+	}
+ebob(54,36);
+</script>
+</body>
+</html>
